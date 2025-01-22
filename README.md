@@ -23,7 +23,7 @@ This is a Laravel-based Access Control List (ACL) system that allows you to mana
     ```cp .env.example .env
     php artisan key:generate
    
-4. Update the .env file with your database credentials.
+4. ```Update the .env file with your database credentials.
 
 5.Run migrations and seeders:
     ```php artisan migrate --seed
