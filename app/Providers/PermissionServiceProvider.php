@@ -21,13 +21,6 @@ class PermissionServiceProvider extends ServiceProvider
 
     public function boot()
     {
-        // // Only register permissions if the application is serving HTTP requests
-        // if ($this->app->runningInConsole() === false) {
-        //     // Check if the permissions table exists before registering permissions
-        //     if (Schema::hasTable('permissions')) {
-        //         PermissionRegistrationService::registerPermissions();
-        //     }
-        // }
         // Register permissions before the application starts handling requests
         if (!$this->app->runningInConsole() && Schema::hasTable('permissions')) {
             PermissionRegistrationService::registerPermissions();
