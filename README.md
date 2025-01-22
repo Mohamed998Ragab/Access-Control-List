@@ -16,23 +16,23 @@ This is a Laravel-based Access Control List (ACL) system that allows you to mana
    cd your-repo
    
 2. Install dependencies:
-    ```composer install
-    npm install
+    - **composer install
+    - **npm install
    
 3. Set up the environment:
-    ```cp .env.example .env
-    php artisan key:generate
+    - **cp .env.example .env
+    - **php artisan key:generate
    
-4. ```Update the .env file with your database credentials.
+4. Update the .env file with your database credentials.
 
 5.Run migrations and seeders:
-    ```php artisan migrate --seed
+    - **php artisan migrate --seed
     
     
 6.Generate a JWT secret:
-    ```php artisan jwt:secret
+    - **php artisan jwt:secret
     
 
 7.Serve the application:
-    ```php artisan serve
+    - **php artisan serve
     
