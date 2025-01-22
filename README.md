@@ -26,10 +26,10 @@ This is a Laravel-based Access Control List (ACL) system that allows you to mana
 4. Update the .env file with your database credentials.
 
 5.Run migrations and seeders:
-    php artisan migrate --seed
+    ```php artisan migrate --seed
     
 6.Generate a JWT secret:
-    php artisan jwt:secret
+    ```php artisan jwt:secret
 
 7.Serve the application:
-    php artisan serve
+    ```php artisan serve
