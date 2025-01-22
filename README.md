@@ -16,11 +16,11 @@ This is a Laravel-based Access Control List (ACL) system that allows you to mana
    cd your-repo
    
 2. Install dependencies:
-    composer install
+    ```composer install
     npm install
    
 3. Set up the environment:
-    cp .env.example .env
+    ```cp .env.example .env
     php artisan key:generate
    
 4. Update the .env file with your database credentials.
